@@ -1,16 +1,55 @@
-# threads_assignment
+# 📱 Flutter Threads Assignment App
 
-A new Flutter project.
+This is a 2-screen Flutter application built as part of the assignment for the **Flutter Developer Intern position at Orax Technologies**.
 
-## Getting Started
+It uses a public API to fetch posts and displays them in a clean, modern UI with avatar images, comments section, and post details.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🔧 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🏠 Home Screen
+- Fetches and displays post list from `https://jsonplaceholder.typicode.com/posts`
+- Each post shows:
+  - Random user avatar
+  - Username (User ID based)
+  - Title & body preview
+  - Relative time like “2d ago”
+- Smooth scrollable list
+- Clean layout using **Google Fonts**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📄 Detail Screen
+- Shows full post title and body
+- Includes:
+  - Like, Comment, Share icons
+  - Dummy comments section (with avatars, likes/dislikes)
+  - Comment input box (UI only)
+
+---
+
+## 📦 APK
+
+🔗 **[Download APK](./app-release.apk)** (or find it in the repo under `/app-release.apk`)
+
+---
+
+## 🧰 Tech Stack
+
+- Flutter
+- Dart
+- Dio package
+- Connectivity_plus
+- Google Fonts
+- Material Design 3
+
+---
+
+## 🚀 Getting Started
+
+Clone and run the project:
+
+```bash
+git clone https://github.com/alizain9/Threads-Assignment.git
+cd threads_assignment
+flutter pub get
+flutter run
